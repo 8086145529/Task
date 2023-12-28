@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cards({cards,description}) {
   return (
-    <div>
+    <div >
         <div >
             <img src={cards} alt="card" />
         </div>

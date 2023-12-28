@@ -3,7 +3,7 @@ body{
   padding: 0;
   background-color: #060606;
   color: #dddde5;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 /* banner */
@@ -60,6 +60,11 @@ body{
   /* line-height: 10px; */
 }
 
+.datahead p{
+  margin-left:25rem;
+  width:800px
+}
+
 .data{
   display: flex;
   justify-content: space-around;
@@ -79,11 +84,109 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .button{
   text-align: center;
+}
+
+.last{
+  margin-top: 4rem;
+  text-align: center;
   
+}
+
+
+@media only screen and (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
+  .heading {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 26px;
+    text-align: center;
+    width: 750px;
+    margin-left: 24rem;
+  
+  }
+
+  .bimg img{
+    width: 650px;
+  }
+
+  .banbut{
+    width: 300px;
+  }
+
+  .bdesc {
+    font-size: 14px;
+  }
+
+  .crd{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    justify-content: space-evenly;
+    margin-top: 4rem;
+  }
+ 
+  .desc{
+    width: 40rem;
+  }
+  .bdesc{
+   text-align: center;
+  }
+
+  .cdesc{
+    display: inline-block;
+    width: 20rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+   }
+
+   .datahead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* padding-right: 45rem; */
+    /* margin-right: 5rem; */
+    /* width: 30rem; */
+
+   }
+
+   .datahead p{
+     margin-right: 20rem;
+     overflow-wrap: break-word;
+     width: 40rem;
+
+  }
+  
+
+  .data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  
+    /* justify-content: space-around; */
+    /* margin-top: 4rem; */
+  
+  }
+
+  .card1{
+    height: 10rem;
+  }
+ 
+ 
+  .last{
+    margin-top:4rem;
+    text-align: center;
+  }
   
 }

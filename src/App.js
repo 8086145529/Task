@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Banner/>
      <div className='crd'>
-        <Cards className="card1" cards={card1} description={'Explore large, destructible environments where no two games are ever the same.'}/>
+        <Cards cards={card1} description={'Explore large, destructible environments where no two games are ever the same.'}/>
         <Cards cards={card2} description={'Team up with friends by sprinting, climbing and smashing your way to earn your Victory Royal'}/>
         <Cards cards={card3} description={'Discover even more ways to play across thousands of creator-made game genres'}/>
      </div>
