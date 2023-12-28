@@ -4,7 +4,8 @@ function Banner() {
   return (
     <div className='banner'>
       <div className='heading'>
-     <h3>Epic Games : An American video game and software developer and publisher based in Cary, North Carolina.</h3> 
+     <div className='closebutton'> <i class="fa-solid fa-xmark"></i></div>
+     <h3 className='title'>Epic Games : An American video game and software developer and publisher based in Cary, North Carolina.</h3> 
     </div>
     <div className='bimg'>
         <img src={banner} alt="" />
